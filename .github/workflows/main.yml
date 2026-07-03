@@ -39,7 +39,7 @@ jobs:
         run: terraform plan output=tfplan
         working-directory: ./git-project 
 
-jobs:
+
   cd:
     runs-on: ubantu-latest
     environment:
